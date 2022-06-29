@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*All sections*/
+.wrapper{
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+/*NavBar*/
+.nav.wrapper{
+    justify-content: space-around;
+    background-color: #14213D;
+    color: #fff;
+} 
+.nav_img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.nav{
+    top: 0;
+    position: sticky;
+    z-index: 1111;
+}
+.nav .fa-bars{
+    font-size: 50px;
+    border: 1px solid #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #14213D;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+
+
+
+/*Courosel*/
+.carousel{
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.speechHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 2px solid #14213D;
+}
+.speechHeader h1{
+    font-size: 40px;
+    color: #14213D;
+}
+.speech{
+    display: flex;
+    width: 98vw;
+    justify-content: space-around;
+    padding: 10px;
+    border: 2px solid #14213D;
+}
+.speech img{
+    height: 20vh;
+    width: 40vw;
+    border-radius: 50%;
+}
+.speech p{
+    height: 15vh;
+    width: 40vw;
+    border-left: #14213D;
+}
+.message .checkbox{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 5px;
+    border: 2px solid #14213D;
+}
+.btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    border: 2px solid #14213D;
+}
+.activate{
+    background-color: #14213D;
+}
