@@ -51,6 +51,7 @@
 
 /*Courosel*/
 .carousel{
+    margin-bottom: 10px;
 }
 .message{
     display: flex;
@@ -77,8 +78,8 @@
     border: 2px solid #14213D;
 }
 .speech img{
-    height: 20vh;
-    width: 40vw;
+    height: 120px;
+    width: 120px;
     border-radius: 50%;
 }
 .speech p{
@@ -89,7 +90,7 @@
 .message .checkbox{
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    margin: 10px 0 0 0;
     padding: 5px;
     border: 2px solid #14213D;
 }
@@ -102,4 +103,34 @@
 }
 .activate{
     background-color: #14213D;
+}
+
+/*News Section*/
+.newWrap{
+    width: 98vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid #14213D;
+}
+.newWrap img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 2px solid #14213D;
+}
+.newsBrief {
+    display: flex;
+    width: 98vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+    padding: 10px;
+}
+.newsHeader {
+    font-size: 40px;
+    color: #14213D;
 }
